@@ -1,0 +1,7 @@
+.DS_Store
+
+node_modules/*
+!node_modules/accessorizer/
+!node_modules/strokerouter/
+node_modules/strokerouter/*/**
+!node_modules/queue-async/

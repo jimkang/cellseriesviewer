@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<html>
+<head>
+  <title>cellseriesviewer</title>
+  <link rel="stylesheet" type="text/css" href="example.css" />
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'med0yzx',
+        scriptTimeout: 3000
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+
+<body>
+
+<h2>cellseriesviewer</h2>
+
+<p class="explanation">
+  A series of cell sets rendered by <a href="https://github.com/jimkang/cellseriesviewer">cellseriesviewer</a>.
+</p>
+
+<svg id="board">
+  <g class="zoom-container">
+    <g id="backdroplayer">
+      <rect width="100%" height="100%"></rect>
+    </g>
+  <!--   <g id="default-cell-layer">
+    </g>
+    <g id="faster-cell-layer" transform="translate(200, 0)">
+    </g>
+    <g id="slosh-cell-layer" transform="translate(0, 200)">
+    </g>
+    <g id="slow-cell-layer" transform="translate(200, 200)">
+    </g>
+   -->
+  </g>
+</svg>
+
+
+<button id="next-button">Next</button>
+<button id="previous-button">Previous</button>
+
+<p class="instructions">
+  Use the button or the right, down, space, enter, or N keys to render the next cell set. Left, up, or P will render the previous set.
+</p>
+
+<footer>
+  <div class="content-wrap">
+  </div>
+</footer>
+
+<script src="d3.v3.min.js"></script>
+<script src="node_modules/lodash/dist/lodash.min.js"></script>
+<script src="node_modules/queue-async/queue.js"></script>
+<script src="node_modules/accessorizer/accessorizer.js"></script>
+<script src="node_modules/cellgridrenderer.js"></script>
+<script src="node_modules/strokerouter/strokerouter.js"></script>
+<script src="cellseries-config.js"></script>
+<script src="cellseriesviewer.js"></script>
+
+</body>
+</html>

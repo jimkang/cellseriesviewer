@@ -1,0 +1,30 @@
+{
+  "name": "cellseriesviewer",
+  "version": "0.1.0",
+  "description": "A small web app that displays series of cells.",
+  "main": "cellseriesviewer.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/cellseriesviewer.git"
+  },
+  "keywords": [
+    "browser",
+    "d3",
+    "cell",
+    "automata",
+    "automaton"
+  ],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/cellseriesviewer/issues"
+  },
+  "homepage": "https://github.com/jimkang/cellseriesviewer",
+  "devDependencies": {},
+  "dependencies": {
+    "strokerouter": "~0.3.1",
+    "accessorizer": "~0.1.0",
+    "cellgridrenderer": "~0.1.0",
+    "queue-async": "~1.0.7"
+  }
+}
