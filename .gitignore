@@ -5,3 +5,5 @@ node_modules/*
 !node_modules/strokerouter/
 node_modules/strokerouter/*/**
 !node_modules/queue-async/
+!node_modules/cellgridrenderer/
+node_modules/cellgridrenderer/*/**
