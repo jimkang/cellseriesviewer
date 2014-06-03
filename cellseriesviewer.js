@@ -22,9 +22,6 @@ function cellSeriesViewer(seriesData) {
   }
 
   var rendererDefaults = {
-    selectors: {
-      svg: '#container-layer'
-    },
     cellWidth: 64,
     cellHeight: 64,
     cellClass: 'cell',

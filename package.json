@@ -1,6 +1,6 @@
 {
   "name": "cellseriesviewer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small web app that displays series of cells.",
   "main": "cellseriesviewer.js",
   "repository": {
